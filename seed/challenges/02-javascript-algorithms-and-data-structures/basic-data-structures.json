@@ -320,7 +320,7 @@
       ],
       "tests": [
         "assert.deepEqual(spreadOut(), ['learning', 'to', 'code', 'is', 'fun'], 'message: <code>spreadOut</code> should return <code>[\"learning\", \"to\", \"code\", \"is\", \"fun\"]</code>');",
-        "assert.notStrictEqual(spreadOut.toString().search(/[...]/), -1, 'message: The <code>spreadOut</code> function should utilize spread syntax');"
+        "assert.notStrictEqual(spreadOut.toString().search(/.../), -1, 'message: NOTE: THIS TEST CASE WILL NOT WORK UNTIL WE HAVE ES6 SUPPORT: The <code>spreadOut</code> function should utilize spread syntax');"
       ],
       "type": "waypoint",
       "releasedOn": "Feb 17, 2017",
